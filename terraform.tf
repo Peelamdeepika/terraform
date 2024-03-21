@@ -4,6 +4,6 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   ami           = "ami-03035978b5aeb1274"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   key_name      = "WorkStation"
 }
